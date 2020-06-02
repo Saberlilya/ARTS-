@@ -5,6 +5,74 @@ Leetcode -111 Minimum Depth of Binary Tree
 
 本题的要求是给一个二叉树，返回这个二叉树的最小层级
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tips
+Tmux 基本操作：
+
+prefix := Ctrl+B
+
+session相关操作
+
+查看/切换session prefix s
+离开Session prefix d
+重命名当前Session prefix $
+window相关操作
+
+新建窗口 prefix c
+切换到上一个活动的窗口 prefix space
+关闭一个窗口 prefix &
+使用窗口号切换 prefix 窗口号
+Pane相关操作
+
+切换到下一个窗格 prefix o
+查看所有窗格的编号 prefix q
+垂直拆分出一个新窗格 prefix “
+水平拆分出一个新窗格 prefix %
+暂时把一个窗体放到最大 prefix z
+滚动 prefix [
+插件
+
+Mouse https://github.com/NHDaly/tmux-better-mouse-mode
+Review
+Programming principles from id software
+
+ID software 不到10个人的开发团队，在6年时间内快速交付了 28 个游戏。如何做到的？
+
+直接做（并且做好）
+不是做demo，而是直接做游戏。迭代开发。保持高标准，但不过早优化。
+让代码永远可运行
+出错时可以fallback
+保持简单
+KISS
+花时间构建好的工具
+效率工具
+尽量测试代码
+吃自己的狗粮
+自己找自己的bug
+写尽可能多的测试
+尽快修复bug
+使用先进的开发系统
+只为当前版本写代码，而不是未来
+保持克制，不过早优化
+使用好的组件抽象
+封装功能性保证设计的一致性。
+编码时从同伴获得反馈
+给程序员创造的自由
+结果重要
+
 三个思路：1递归 2.广度优先搜索 3.深度优先搜索
 
 这道题是我对之前做过的题目的回顾，之前选择的解决思路是借助一个函数进行递归，可以通过很少的代码量把问题解决，代码格式也相对优雅。 近期在回顾学习广度优先搜索和深度优先搜索，所以想再通过广度优先搜索把这道题再从做一遍。
